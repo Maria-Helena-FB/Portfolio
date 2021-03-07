@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(230, 200, 177, 0.68);
+}
+
+
+ul {
+    font-family: cursive;
+    font-size: 10pt;
+}
+
+#menu ul {
+    margin: 1px;
+    background-color: #679399;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+
+}
+
+#menu ul li a {
+    padding: 10px 50px;
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+#menu ul li a:hover {
+    color: #001440;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Caveat', cursive;
+}
+
+#kkk {
+    padding: 40px 100px;
+    background-color: #9DC7CC;
+    margin-right: 50px;
+    margin-left: 50px;
+}
