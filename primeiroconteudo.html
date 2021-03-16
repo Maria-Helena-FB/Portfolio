@@ -3,68 +3,133 @@
 <html>
 
 <head>
-    <title>Primeiro Conteúdo</title>
+    <title>Função Modular</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/primeiroconteudo.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light" id="menu">
+
+        <a class="navbar-brand" href="#">Portfólio Matemática</a>
 
 
-    <nav>
-        <div id="menu">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="intruducao.html">Introdução</a></li>
-                <li><a href="primeiroconteudo.html">Funções Modulares</a></li>
-                <li><a href="segundoconteudo.html">Segundo</a></li>
-                <li><a href="terceiroconteudo.html">Terceiro</a></li>
-                <li><a href="#">Quarto</a></li>
-                <li><a href="#">Quinto</a></li>
-                <li><a href="#">Reflexão</a></li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="intruducao.html">Introdução</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="primeiroconteudo.html">Funções Modulares</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="segundoconteudo.html">Função Exponencial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="terceiroconteudo.html">Terceiro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quartoconteudo.html">Quarto</a>
+                </li>
             </ul>
         </div>
-    </nav>
 
-    <div id="kkk">
+    </nav><br>
+
+    <div class="kkk">
 
         <h1>Funções Modulares</h1>
+
         <p> Ter um valor dentro do módulo significa que é apenas o valor numérico que está sendo levado em consideração, excluíndo o sinal. Então -x e +x dentro do módulo ficam iguais: |X|. Seguindo essa linha, a variável dentro do módulo em uma função modular deve ser considerada com o valor positivo e nagativo.
             |x| = 3 --> x = 3 e x = -3.</p>
         <p> O módulo em uma função também altera o seu gráfico. Por exemplo o gráfico da função f(x)= x </p>
-        
-        <img src="img/grafico%20da%20fun%C3%A7%C3%A3o%20f(x)=x.png" class="img">
-        
+
+        <img src="img/grafico%20da%20fun%C3%A7%C3%A3o%20f(x)=x.png" class="img" class="img-fluid"><br>
+
+    </div>
+
+    <div class="kkk">
+
         <p>Aplicando o módulo nesta função obtem-se f(x)= |x|. Com a função dentro do módulo, a parte negativa do eixo y será espelhada para a parte positiva, como é possível ver na imagem abaixo.</p>
-        
-        <img src="img/grafico%20da%20fun%C3%A7%C3%A3o%20f(x)=x%20no%20m%C3%B3dulo.png" class="img">
-    
-          
-       <p> Ao variar o valor do coeficiente x o resultado será um gráfico mais "fechado", como pode ser observado na imagem. O gráfico de f(x)=|3x| é mais fechado pois seu coeficiente x possui variação, enquanto g(x)=|x| não possui variação no x.  (O gráfico de f(x)= |3x| e f(x)= |-3x| será igual, já que o módulo transforma os valores para positivo);
-    </p>     
-        
-        <img src="img/variacao_do_coeficiente_x.png" class="img">
-    
-    <p>Também é possível somar e subtrair valores dentro e fora do módulo. O gráfico I mostra o que acontece quando um valor é somado e subtraído fora do módulo, enquanto o gráfico II mostra o que acontece quando uma valor é somado e subtraído dentro do módulo.</p>
-        
+
+        <img src="img/grafico%20da%20fun%C3%A7%C3%A3o%20f(x)=x%20no%20m%C3%B3dulo.png" class="img"><br>
+
+    </div>
+
+    <div class="kkk">
+
+        <p> Ao variar o valor do coeficiente x o resultado será um gráfico mais "fechado", como pode ser observado na imagem. O gráfico de f(x)=|3x| é mais fechado pois seu coeficiente x possui variação, enquanto g(x)=|x| não possui variação no x. (O gráfico de f(x)= |3x| e f(x)= |-3x| será igual, já que o módulo transforma os valores para positivo);
+        </p>
+
+
+        <img src="img/variacao_do_coeficiente_x.png" class="img"><br>
+
+    </div>
+
+    <div class="kkk">
+
+
+        <p>Também é possível somar e subtrair valores dentro e fora do módulo. O gráfico I mostra o que acontece quando um valor é somado e subtraído fora do módulo, enquanto o gráfico II mostra o que acontece quando uma valor é somado e subtraído dentro do módulo.</p>
+
         <img src="img/somando_subtraindo_valores_fora_modulo.png" class="ladoalado">
         <img src="img/somando_subtraindo_valores_dentro_modulo.png" class="ladoalado">
-        
-    <p></p>    
-        
-        
-    
+
     </div>
-      
 
-        <div align="center"><a href="intruducao.html" id="prox">Página Anterior</a></div>
+    <div class="kkk">
 
-        <div align="center"><a href="segundoconteudo.html" id="prox">Próxima Página</a></div>
+        <p>Resolução de questão do Trabalho:</p>
+        <p>Questão 6: Construa o gráfico das funções modulares:</p>
+        <p>a) f(x) = - |x-2| + 3</p>
+        <p>Para facilitar na construção do gráfico recomenda-se fazer por partes, então comecei com o gráfico do x-2 e a partir dele apliquei o módulo. Após somei o 3 fora do módulo, deslocando o gráfico para cima, e, por último, considerei o sinal negativo, espelhando todo o gráfico para baixo.</p>
+        <p>Escolhi esse exercício pois no início foi um pouco confuso o processo de construção de gráficos para mim e dividir esse processo em etapas facilitou bastante a compreenção.</p>
+
+        <img src="img/grafico%20de%20x-2.jpg" class="ladoalado" class="img-fluid">
+        <img src="img/grafico%20de%20x-2%20no%20m%C3%B3d.jpg" class="ladoalado"><br>
+        <img src="img/grafico%20de%20mod(x-2)%20+3.jpg" class="ladoalado">
+        <img src="img/grafico%20de%20-mod(%20x-2)%20+3.jpg" class="ladoalado">
+
+
+
+    </div>
+
+    <footer>
+
+        <div id="eu">
+            <p>Maria Helena Fava Bogies</p>
+        </div>
+
+        <div id="prox">
+            <a href="index.html">Início</a>
+            <a href="intruducao.html">Página Anterior</a>
+            <a href="segundoconteudo.html">Próxima Página</a>
+        </div>
+
+    </footer>
 
 </body>
 
