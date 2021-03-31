@@ -3,9 +3,9 @@
 <html>
 
 <head>
-    <title>Terceiro Conteúdo</title>
+    <title>Quarto conteúdo - PA e PG</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/terceiroconteudo.css">
+    <link rel="stylesheet" type="text/css" href="css/quartoconteudo.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap" rel="stylesheet">
@@ -51,10 +51,13 @@
                     <a class="nav-link" href="segundoconteudo.html">Função Exponencial</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="terceiroconteudo.html">Terceiro</a>
+                    <a class="nav-link" href="terceiroconteudo.html">Matemática Financeira</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="quartoconteudo.html">Quarto</a>
+                    <a class="nav-link" href="quartoconteudo.html">PA e PG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reflexao.html">Reflexão</a>
                 </li>
             </ul>
         </div>
@@ -63,13 +66,197 @@
 
     <div class="kkk">
 
-        <h1>Quarto Conteúdo</h1>
+        <h1>Progressão Aritmética e Progressão Geométrica</h1>
+        <p>Uma progressão aritmética é uma sequência de números em que, a partir do segundo elemento, é a soma do anterior com uma constante r, que é a diferença entre um número e seu anterior.</p>
 
+        <ul>
+            <li>a1 = primeiro elemento da sequência.</li>
+            <li>an = termo geral</li>
+            <li>n = posição do termo dentro da sequência</li>
+            <li>r = razão</li>
+        </ul>
+
+        <div class="box">
+            <p>Exemplo de uma PA: (0, 3, 6, 9, 12...)</p>
+            <p>a1 = 0</p>
+            <p>r = 9 - 6 = 3</p>
+
+        </div>
     </div>
 
-    <div align="center"><a href="terceiroconteudo.html" id="prox">Página Anterior</a></div>
+    <div class="kkk">
 
-    <div align="center"><a href="intruducao.html" id="prox">Próxima Página</a></div>
+        <p> Para encontrar o termo geral existe um fórmula específica: an = a1 + (n - 1)r</p>
+
+        <div class="box">
+            <p>Exemplo 2: Encontrar o 15º termo da PA (0, 3, 6, 9, 12...)</p>
+
+            <ul>
+                <li>a1 = 0 </li>
+                <li>r = 3</li>
+                <li>n = 15</li>
+                <li>Fórmula: an = a1 + ( n - 1 )r</li>
+            </ul>
+
+            <p>a15 = 0 + (15 - 1)* 3</p>
+            <p>a15 = 14 * 3</p>
+            <p>a15 = 42</p>
+            <p>O 15º termo da PA é o 42</p>
+        </div>
+    </div>
+
+    <div class="kkk">
+
+        <p>Uma PA também pode estabelecer relação com as função afim, tornando possível a construção de um gráfico, o qual apresenta uma reta com crescimento linear, já que o crescimento é em função de uma razão r que é sempre a mesma. Cada ponto do gráfico pode ser estabelecido por (n , an), ou seja, o valor do x é a posição dos termos dentro da PA, e o y é o valor dos termos.</p>
+        <p>Uma divergência entre o gráfico de uma função afim e o gráfico de uma PA é que o gráfico da PA NÂO pode ser representado por uma linha, que engloba todos os valores entre um ponto e outro. Para o gráfico da PA são usadas linhas tracejadas, indicando que somente o valor do ponto é válido. </p>
+
+        <div class="box">
+            <p>Exemplo 3: Gráfico da PA (0, 2, 4, 6, 8...)</p>
+            <img src="img/qc_ft_I.png" class="img">
+        </div>
+    </div>
+        
+    <div class="kkk">
+
+        <p>Também é possível somar todos os termos de uma PA finita sem a necessidade de somar um por um. Para isso é usada a fórmula: Sn = ((a1 + an)*n)/2, em que:</p>
+
+        <ul>
+            <li>a1 = primeiro termo</li>
+            <li>an = último elemento da soma</li>
+            <li>n = posição do último elemento da soma</li>
+            <li>Sn = resultado da soma</li>
+        </ul>
+
+        <div class="box">
+            <p>Exemplo 4: Somar os 20 primeiros elementos da PA (0, 3, 6, 9, 12...) </p>
+
+            <ul>
+                <li>a1 = 0</li>
+                <li>an = ?</li>
+                <li>n = 20</li>
+                <li>Sn = ?</li>
+            </ul>
+
+            <p>Como não temos o elemento da posição 20 precisamos primeiro descobri-lo para poder calcular a soma. Para descobrir esse valor usa-se a fórmula an = a1 + ( n - 1 )r.</p>
+            <p>a20 = 0 + (20 - 1)*3</p>
+            <p>a20 = 19 * 3</p>
+            <p>a20 = 57</p><br>
+            <p>Cálculo da soma:</p>
+            <p>Sn = ((0 + 57)*20)/2</p>
+            <p>Sn = (1140)/2 </p>
+            <p>Sn = 570</p>
+
+        </div>
+    </div>
+    
+    <div class="kkk">
+        <p>Resolução de questão do trabalho</p>
+        <p>Questão 2: Interpole 5 meios aritméticos entre 10 e 220:</p>
+        
+        <div class="box">
+            
+            <p>Interpolar meios aritméticos entre dois valores significa inserir k valores entre os dois extremos, ou seja, n = k + 2 termos.<br> Para fazer a interploação são usadas as fórmulas n = k + 2 e an = a1 + (n - 1)*r</p>
+            
+            <p>Resolução:</p>
+            
+            <ul>
+                <li>a1 = 10</li>
+                <li>an = 220</li>
+                <li>n = k + 2</li>
+                <li>k = 5</li>
+                <li>r = ?</li>
+            </ul>
+            
+            <p>n = k + 2</p>
+            <p>n = 5 + 2</p>
+            <p>n = 7</p>
+            <br>
+            <p>an = a1 + (n - 1)5</p>
+            <p>220 = 10 + (7 - 1)r</p>
+            <p>220 = 10 + 6r</p>
+            <p>220 - 10 = 6r</p>
+            <p>210 = 6r</p>
+            <p>r = 210 / 6</p>
+            <p>r = 35</p>
+            <br>
+            <p>Agora com o termo inicial, final e a razão entre cada um dos termos é possível montar a PA com os cinco meios aritméticos.</p>
+            <p>PA: 10, 45, 80, 115, 150, 185, 220</p>
+            
+        </div>
+
+    </div>
+    
+    <div class="kkk">
+        <p>A Progressão Geométrica segue o mesmo princípio da Progressão Arimética, porém, ao invés de ser dada pela soma de um elemento a uma constante r, a PG é dada pelo produto do elemento anterior a uma constante q.</p>
+        
+        <ul>
+            <li>a1 = primeiro elemento da sequência.</li>
+            <li>an = termo geral</li>
+            <li>n = posição do termo dentro da sequência</li>
+            <li>q = razão</li>
+        </ul>
+        
+        <div class="box">
+            <p>Exemplo de uma PG: (2, 6, 18, 54, 162...)</p>
+            <p>a1 = 2</p>
+            <p>q = 3</p>
+        </div>
+    
+    </div>
+    
+    <div class="kkk">
+        <p>Para encontrar o termo geral de uma PG usa-se a fórmula an = a1 * q ^ n-1</p>
+        
+        <div class="box">
+            <p>Exemplo 2: Encontrar o 10º termo da PG (2, 6, 18, 54, 162...)</p>
+            
+            <ul>
+            <li>a1 = 2</li>
+            <li>q = 3</li>
+            <li>n = 10</li>
+            <li>Fórmula: an = a1 * q ^n-1</li>
+            </ul>
+            
+            <p>a10 = 2 * 3 ^ 10-1</p>
+            <p>a10 = 2 * 3 ^ 9</p>
+            <p>a10 = 2 * 19.683 </p>
+            <p>a10 = 39.366</p>
+            <p>O décimo termo da PG é 39.366</p>
+        </div>
+        
+    </div>
+    
+    <div class="kkk">
+        <p>Assim como em uma PA, em uma PG é possível fazer a interpolação geométrica, calcular todos os termos de uma PG finita, e também calcular todos os termos de uma PG infinita quando -1< q< 1. </p>
+    
+    </div>
+    
+    <div class="kkk">
+        <p>Resolução de questão do trabalho:</p>
+        <p>Questão 3: Determine o valor de x de modo que os números 𝑥 + 1, 𝑥 + 11 e 𝑥 + 41 formem, nessa
+        ordem, uma PG.</p>
+        
+        <div class="box">
+            <p>Resolução:</p>
+            <img src="img/qc_ft_II.jpg" id="tam" >
+        </div>
+    </div>
+    
+    
+
+    <footer>
+
+        <div id="eu">
+            <p>Maria Helena Fava Bogies</p>
+        </div>
+
+        <div id="prox">
+            <a href="index.html">Início</a>
+            <a href="terceiroconteudo.html">Página Anterior</a>
+            <a href="reflexao.html">Próxima Página</a>
+        </div>
+
+    </footer>
 
 </body>
 
